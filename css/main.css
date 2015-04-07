@@ -1,0 +1,35 @@
+/*Global*/
+/* line 4, ../scss/main.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 10, ../scss/main.scss */
+body {
+  font-family: "Nunito", sans-serif;
+  background: orange;
+  color: #384047;
+}
+
+/* line 16, ../scss/main.scss */
+.wrapper {
+  max-width: 90%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+/* line 24, ../scss/main.scss */
+h1, h2 {
+  margin: 30px 0;
+  text-align: center;
+}
+
+/* line 29, ../scss/main.scss */
+video, audio, .mejs-treehouse {
+  margin: 0 auto;
+  display: block;
+}
