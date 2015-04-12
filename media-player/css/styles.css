@@ -1,0 +1,10 @@
+/* line 1, ../scss/styles.scss */
+body {
+  color: red;
+}
+
+/* line 5, ../scss/styles.scss */
+.mejs-mediaelement {
+  background: orange;
+  width: 120%;
+}
