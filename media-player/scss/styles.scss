@@ -1,8 +1,25 @@
 body{
 	color:red;
+	background: blue;
 }
 
 .mejs-mediaelement{
-	background: orange;
+	background: purple;
 	width:120%;
+	height:120%;
+
+}
+.mejs-container .mejs-corgi .mejs-controls div{
+	background-color:tomato;
+}
+
+
+.mejs-corgi .mejs-controls{
+background: white;
+}	
+
+.me-js-time-rail .mejs-time-total{
+	margin:0;
+	background: purple;
+	color:green;
 }

@@ -1,10 +1,29 @@
 /* line 1, ../scss/styles.scss */
 body {
   color: red;
+  background: blue;
 }
 
-/* line 5, ../scss/styles.scss */
+/* line 6, ../scss/styles.scss */
 .mejs-mediaelement {
-  background: orange;
+  background: purple;
   width: 120%;
+  height: 120%;
+}
+
+/* line 12, ../scss/styles.scss */
+.mejs-container .mejs-corgi .mejs-controls div {
+  background-color: tomato;
+}
+
+/* line 17, ../scss/styles.scss */
+.mejs-corgi .mejs-controls {
+  background: white;
+}
+
+/* line 21, ../scss/styles.scss */
+.me-js-time-rail .mejs-time-total {
+  margin: 0;
+  background: purple;
+  color: green;
 }
