@@ -1,0 +1,35 @@
+/* line 6, ../scss/styles.scss */
+.wrapper {
+  margin: 0 auto;
+  background: blue;
+}
+
+/* line 11, ../scss/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* line 17, ../scss/styles.scss */
+nav ul li {
+  list-style: none;
+}
+
+/* line 21, ../scss/styles.scss */
+.mejs-corgi {
+  display: block;
+  margin: auto auto;
+}
+/* line 25, ../scss/styles.scss */
+.mejs-corgi mejs-controls {
+  padding: 10px 0;
+  background: red;
+}
+
+/*Media Queries */
+@media (max-width: 600px) {
+  /* line 36, ../scss/styles.scss */
+  video {
+    max-width: 100%;
+  }
+}
