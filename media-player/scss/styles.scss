@@ -1,25 +1,35 @@
-body{
-	color:red;
+$main: rgba(2,166,118,0.8);
+$accent: #005A5B;
+$accent2: #0A2930;
+$accent3: #B64926;
+
+.wrapper{
+	margin:0 auto ;
 	background: blue;
 }
 
-.mejs-mediaelement{
-	background: purple;
-	width:120%;
-	height:120%;
+h1{
+	text-align: center;
+	font-size: 3em;
 
 }
-.mejs-container .mejs-corgi .mejs-controls div{
-	background-color:tomato;
+
+nav ul li{
+	list-style: none;
+}
+
+.mejs-corgi{
+	display:block;
+	margin:auto auto;
 }
 
 
-.mejs-corgi .mejs-controls{
-background: white;
-}	
 
-.me-js-time-rail .mejs-time-total{
-	margin:0;
-	background: purple;
-	color:green;
+/*Media Queries */
+
+@media (max-width: 600px) {
+ video{
+ 	max-width: 100%;
+ }
 }
+</style>

@@ -5,7 +5,10 @@ $('audio,video').mediaelementplayer({
 	  $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
 	},
 	startLanguage: 'en',
-	translationSelector: true
+  alwaysShowControls: true,
+	translationSelector: true,
+      features: ['playpause','progress','current','volume','fullscreen']
+
 });
 
 
