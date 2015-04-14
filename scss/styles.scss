@@ -1,0 +1,96 @@
+$main: rgba(2,166,118,0.8);
+$accent: #005A5B;
+$accent2: #0A2930;
+$accent3: #B64926;
+
+.wrapper{
+	margin:0 auto ;
+	width:80%;
+
+}
+
+h1{
+	text-align: center;
+	font-size: 3em;
+}
+
+nav{
+	display: block;
+	text-align: center;
+}
+
+nav ul li{
+	list-style: none;
+	display:inline-block;
+	padding:0 20px;
+	a{
+		color:$main;
+		text-decoration: none;
+		font-size: 1.2em;
+		text-transform: uppercase;
+	}	
+}
+
+
+
+.mejs-corgi{
+	display:block;
+	margin:auto auto;
+
+	.mejs-controls{
+		background: $main;
+	}	
+
+	.mejs-controls .mejs-time-rail .mejs-time-loaded{
+		background: white;
+	}
+
+	div.mejs-time-rail{
+		width:200px;
+	}
+
+	.mejs-time-rail .mejs-time-total {
+		width:100px;
+	}
+
+	/*Button Implementation*/
+
+	 .mejs-button button {
+background: transparent url(../assets/controls.png) no-repeat;
+}
+
+.mejs-pause button{
+background-position: 0 -16px;
+}
+
+ .mejs-mute button{
+background-position: -16px -16px;
+}
+
+ .mejs-fullscreen-button button{
+background-position: -32px 0;
+}
+
+
+}
+
+
+
+	.mejs-overlay-loading{
+		display:none;
+	}
+	
+
+
+
+
+
+
+
+/*Media Queries */
+
+@media (max-width: 600px) {
+ video{
+ 	max-width: 100%;
+ }
+}

@@ -20,60 +20,63 @@ nav {
 nav ul li {
   list-style: none;
   display: inline-block;
+  padding: 0 20px;
 }
 /* line 26, ../scss/styles.scss */
 nav ul li a {
-  color: #0a2930;
+  color: rgba(2, 166, 118, 0.8);
   text-decoration: none;
+  font-size: 1.2em;
+  text-transform: uppercase;
 }
 
-/* line 34, ../scss/styles.scss */
+/* line 36, ../scss/styles.scss */
 .mejs-corgi {
   display: block;
   margin: auto auto;
   /*Button Implementation*/
 }
-/* line 38, ../scss/styles.scss */
+/* line 40, ../scss/styles.scss */
 .mejs-corgi .mejs-controls {
   background: rgba(2, 166, 118, 0.8);
 }
-/* line 42, ../scss/styles.scss */
+/* line 44, ../scss/styles.scss */
 .mejs-corgi .mejs-controls .mejs-time-rail .mejs-time-loaded {
   background: white;
 }
-/* line 46, ../scss/styles.scss */
+/* line 48, ../scss/styles.scss */
 .mejs-corgi div.mejs-time-rail {
   width: 200px;
 }
-/* line 50, ../scss/styles.scss */
+/* line 52, ../scss/styles.scss */
 .mejs-corgi .mejs-time-rail .mejs-time-total {
   width: 100px;
 }
-/* line 56, ../scss/styles.scss */
+/* line 58, ../scss/styles.scss */
 .mejs-corgi .mejs-button button {
   background: transparent url(../assets/controls.png) no-repeat;
 }
-/* line 60, ../scss/styles.scss */
+/* line 62, ../scss/styles.scss */
 .mejs-corgi .mejs-pause button {
   background-position: 0 -16px;
 }
-/* line 64, ../scss/styles.scss */
+/* line 66, ../scss/styles.scss */
 .mejs-corgi .mejs-mute button {
   background-position: -16px -16px;
 }
-/* line 68, ../scss/styles.scss */
+/* line 70, ../scss/styles.scss */
 .mejs-corgi .mejs-fullscreen-button button {
   background-position: -32px 0;
 }
 
-/* line 77, ../scss/styles.scss */
+/* line 79, ../scss/styles.scss */
 .mejs-overlay-loading {
   display: none;
 }
 
 /*Media Queries */
 @media (max-width: 600px) {
-  /* line 91, ../scss/styles.scss */
+  /* line 93, ../scss/styles.scss */
   video {
     max-width: 100%;
   }
