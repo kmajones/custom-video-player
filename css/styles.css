@@ -1,0 +1,55 @@
+/* line 6, ../scss/styles.scss */
+.wrapper {
+  margin: 0 auto;
+  background: blue;
+}
+
+/* line 11, ../scss/styles.scss */
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+/* line 17, ../scss/styles.scss */
+nav ul li {
+  list-style: none;
+}
+
+/* line 21, ../scss/styles.scss */
+.mejs-corgi {
+  display: block;
+  margin: auto auto;
+}
+/* line 25, ../scss/styles.scss */
+.mejs-corgi mejs-controls {
+  padding: 10px 0;
+  background: red;
+}
+
+/* line 31, ../scss/styles.scss */
+.mejs-controls .mejs-button button {
+  background: transparent url(../assets/controls.png) no-repeat;
+}
+
+/* line 35, ../scss/styles.scss */
+.mejs-controls .mejs-pause button {
+  background-position: 0 -16px;
+}
+
+/* line 39, ../scss/styles.scss */
+.mejs-controls .mejs-mute button {
+  background-position: -16px -16px;
+}
+
+/* line 44, ../scss/styles.scss */
+.mejs-controls .mejs-fullscreen-button button {
+  background-position: -32px 0;
+}
+
+/*Media Queries */
+@media (max-width: 600px) {
+  /* line 54, ../scss/styles.scss */
+  video {
+    max-width: 100%;
+  }
+}
