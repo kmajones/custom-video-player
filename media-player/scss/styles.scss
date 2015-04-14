@@ -21,6 +21,11 @@ nav ul li{
 .mejs-corgi{
 	display:block;
 	margin:auto auto;
+
+	mejs-controls{
+		padding:10px 0;
+		background: red;
+	}
 }
 
 
